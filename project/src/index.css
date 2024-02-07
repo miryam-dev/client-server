@@ -1,0 +1,47 @@
+body {
+  color: rgb(40, 41, 43);
+  text-align: center;
+  /* margin: auto; */
+  /* background-color: rgba(16, 190, 221, 0.288); */
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#div{
+  background-image: url("backgraund/check-mark-checklist-clipboard-paper-alarm-clock-tick-check-punctual-concept-blue-sky-pastel-background-3d-rendering_598821-27.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#div2{
+  margin: 0% 40% 0% 0%;
+}
+.link{
+  text-decoration: none;
+  color: blue;
+}
+#ul{
+display: flex;
+flex-wrap: wrap;
+
+}
+#ul>div{
+  padding:2%;
+  width: 30%;
+  border: 1px;
+  border-radius: 2px;
+  border-style: solid;
+}
+#nav{
+  position: relative;
+  left: 20%;
+ top: 20px;
+}
